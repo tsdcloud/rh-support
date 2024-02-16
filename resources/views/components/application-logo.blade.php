@@ -1,0 +1,1 @@
+<img src="{{ asset('images/bfc_logo.png') }}" alt="Logo du Groupe BFC" width="100" height="100" style="border-radius:50%">

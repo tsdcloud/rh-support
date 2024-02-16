@@ -1,0 +1,33 @@
+@media only screen and (max-width: 800px) {
+    .display-desktop{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    .display-mobile{
+        display: none;
+    }
+}
+
+/* .horizontal-menu .navbar-dark .nav-item .hover, .horizontal-menu .navbar-dark .nav-item.active>a, .horizontal-menu .navbar-dark .nav-item:hover{
+    background-color: #1e9ff2;
+} */
+.border-content{
+    border: 1px solid rgb(216, 213, 213);
+    border-radius: 6px;
+}
+.vertical-overlay-menu .main-menu .navigation li.has-sub>a:not(.mm-next):after{
+    /* content: "\e034"!important; */
+    content: "\f0da"!important;
+    font-family: 'Font Awesome 5 Free';
+    font-size: 1rem;
+    display: inline-block;
+    position: absolute;
+    top: 13px;
+    transform: rotate(0);
+    transition: -webkit-transform .2s ease-in-out;
+    right: 34px;
+
+    box-sizing: border-box;
+}
