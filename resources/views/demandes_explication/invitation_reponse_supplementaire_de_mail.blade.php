@@ -21,7 +21,8 @@
     </p>
     <p><b>Délais:</b> 48h</p>
     <p>
-        <a href="{{ url('http://supportrh.bfclimited.com:8070/de/show/' . $mailData['demande_explication_id']) }}">
+        {{-- <a href="{{ url('http://supportrh.bfclimited.com:8070/de/show/' . $mailData['demande_explication_id']) }}"> --}}
+        <a href="{{ url('http://rh.support.initiativearec.com/de/show/' . $mailData['demande_explication_id']) }}">
             Bien vouloir suivre ce lien pour plus de détails.
         </a>
     </p>
