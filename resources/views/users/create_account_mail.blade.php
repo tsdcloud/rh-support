@@ -17,7 +17,7 @@
     <br>
 
     <p>
-        <a href="{{ url('http://supportrh.bfclimited.com:8070/users/profil/' . $mailData['user']->id) }}">
+        <a href="{{ url('http://rh.support.initiativearec.com/users/profil/' . $mailData['user']->id) }}">
             Cliquer ici pour vous connecter à l'application et modifier votre mot de passe
         </a>
     </p>

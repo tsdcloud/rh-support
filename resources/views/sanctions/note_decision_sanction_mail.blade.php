@@ -16,7 +16,8 @@
     Bonjour {{ $mailData['destinataire']->fname }}  {{ $mailData['destinataire']->lname }}, <br><br>
 
     <p>
-        <a href="{{ url('http://supportrh.bfclimited.com:8070/de/show/' . $mailData['demande']->id) }}">
+        {{-- <a href="{{ url('http://supportrh.bfclimited.com:8070/de/show/' . $mailData['demande']->id) }}"> --}}
+        <a href="{{ url('http://rh.support.initiativearec.com/de/show/' . $mailData['demande']->id) }}">
             Bien vouloir suivre ce lien pour visualiser votre note de décision de sanction.
         </a>
     </p>

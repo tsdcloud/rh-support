@@ -16,7 +16,7 @@
     <p><strong> Mot de passe:</strong>  {{ $mailData['password'] }}</p>
 
     <p>
-        <a href="{{ url('http://supportrh.bfclimited.com:8070/users/profil/'. $mailData['user']->id) }}">
+        <a href="{{ url('http://rh.support.initiativearec.com/users/profil/'. $mailData['user']->id) }}">
             Cliquer ici pour accéder à votre page de profil.
         </a>
     </p>

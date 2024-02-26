@@ -21,7 +21,8 @@
     <br>
 
     <p>
-        <a href="{{ url('http://supportrh.bfclimited.com:8070/profil/' . $mailData['user']->id) }}">
+        {{-- <a href="{{ url('http://supportrh.bfclimited.com:8070/profil/' . $mailData['user']->id) }}"> --}}
+        <a href="{{ url('rh.support.initiativearec.com/profil/' . $mailData['user']->id) }}">
             Cliquer ici pour accéder à votre page de profil
         </a>
     </p>
